@@ -149,6 +149,14 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    gap: 5px;
+    height: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table {
     width: 70%;
     min-width: 235px;
@@ -452,7 +460,7 @@ main {
 .plans-container--slider {
     display: flex;
     gap: 5px;
-    height: 316px;
+    height: 320px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
